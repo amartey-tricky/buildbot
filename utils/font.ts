@@ -9,4 +9,4 @@ export const josefin = Josefin_Sans({
 export const platypi = Platypi({
   weight: ["400", "600", "700"],
   subsets: ["latin"],
-})
+});

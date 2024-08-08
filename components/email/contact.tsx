@@ -1,10 +1,10 @@
 import {
-  Tailwind,
-  Section,
   Heading,
-  Img,
-  Text,
   Hr,
+  Img,
+  Section,
+  Tailwind,
+  Text,
 } from "@react-email/components";
 
 interface ContactEmailProps {
@@ -30,12 +30,13 @@ export const ContactEmail: React.FC<Readonly<ContactEmailProps>> = ({
         </Text>
       </Section>
       <Section>
-        <Heading as="h1" className="text-5xl text-center font-semibold capitalize mb-6">
-          { name } ({ email }) Message You 
+        <Heading
+          as="h1"
+          className="text-5xl text-center font-semibold capitalize mb-6"
+        >
+          {name} ({email}) Message You
         </Heading>
-        <Text>
-          { message }
-        </Text>
+        <Text>{message}</Text>
       </Section>
     </Tailwind>
   );

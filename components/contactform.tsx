@@ -1,8 +1,8 @@
 "use client";
 
+import { SendContactEmail } from "@/app/contact/actions";
 import { ContactFormSchema } from "@/utils/schema/contactschema";
 import type { ContactFormData } from "@/utils/schema/contactschema";
-import { SendContactEmail } from "@/app/contact/actions";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { useForm } from "react-hook-form";
 import { toast } from "sonner";

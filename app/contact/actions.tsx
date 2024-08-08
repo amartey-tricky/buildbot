@@ -7,7 +7,7 @@ import type { ContactFormData } from "@/utils/schema/contactschema";
 const resend = new Resend(process.env.RESEND_API_KEY);
 
 export async function SendContactEmail(data: ContactFormData) {
-  const result = ContactFormSchema.safeParse(data)
+  const result = ContactFormSchema.safeParse(data);
 
   if (result.success) {
     const { name, email, message } = result.data;
@@ -18,7 +18,8 @@ export async function SendContactEmail(data: ContactFormData) {
         subject: "Contact Form Submission",
         // text: `Name: ${name}\nEmail: ${email}\nSubject: ${subject}\nMessage: ${message}`,
         react: ContactEmail({ name, email, message }),
-      });      return { success: true, data };
+      });
+      return { success: true, data };
     } catch (error) {
       return { success: false, error };
     }

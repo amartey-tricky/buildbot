@@ -2,7 +2,9 @@
 
 import { Toaster } from "sonner";
 
-export default function ToasterProvider({ children }: { children: React.ReactNode }) {
+export default function ToasterProvider({
+  children,
+}: { children: React.ReactNode }) {
   return (
     <>
       {/* {children} */}

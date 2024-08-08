@@ -1,6 +1,6 @@
 import Link from "next/link";
-import { CldImage } from "./cldimage";
 import { Suspense } from "react";
+import { CldImage } from "./cldimage";
 
 export function Footer() {
   return (
