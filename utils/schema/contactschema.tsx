@@ -1,9 +1,9 @@
-import * as v from "valibot";
+import { z } from "zod";
 
-export const ContactFormSchema = v.object({
-  name: v.pipe(v.string(), v.nonEmpty("Enter your name")),
-  email: v.pipe(v.string(), v.email("Enter a valid email address")),
-  message: v.pipe(v.string(), v.nonEmpty("Enter a message to us")),
+export const ContactFormSchema = z.object({
+  name: z.string().min(3, "Enter your name"),
+  email: z.string().email("Enter a valid email address"),
+  message: z.string().min(3, "Enter a message"),
 });
 
-export type ContactFormData = v.InferInput<typeof ContactFormSchema>;
+export type ContactFormData = z.infer<typeof ContactFormSchema>;
