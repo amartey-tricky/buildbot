@@ -5,7 +5,7 @@ import clsx from "clsx";
 import { CldImage } from "next-cloudinary";
 import Link from "next/link";
 import { useState } from "react";
-import Suspence from "react";
+import { Suspense } from "react";
 
 const Links = [
   {
@@ -51,12 +51,21 @@ export function Header() {
       <nav className="w-full flex items-center justify-between">
         <div>
           <Link href="/" className="flex items-center gap-2">
-            <CldImage
-              src="Logos/lsgf9lciieblf3jemxy5"
-              alt="Buildbot Logo"
-              width={100}
-              height={76.5999999999998}
-            />
+            <Suspense
+              fallback={
+                <div className="rounded-md bg-gray-200 w-full h-full">
+                  {" "}
+                  Loading Image
+                </div>
+              }
+            >
+              <CldImage
+                src="Logos/lsgf9lciieblf3jemxy5"
+                alt="Buildbot Logo"
+                width={100}
+                height={76.5999999999998}
+              />
+            </Suspense>
             <span className={`${josefin.className} font-bold text-3xl`}>
               BUILDBOT
             </span>
@@ -69,7 +78,7 @@ export function Header() {
               key={link.id}
               href={link.href}
               className={clsx(
-                "text-xl font-medium text-gray-500 hover:text-gray-800 hover:border-b-2 border-y-black ease-in-out duration-100",
+                "text-xl font-medium text-gray-500 hover:text-gray-800 hover:underline ease-in-out duration-100",
               )}
             >
               {link.name}
