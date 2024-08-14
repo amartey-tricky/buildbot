@@ -1,5 +1,5 @@
 import { CldImage } from "@/components/cldimage";
-import Link from "next/link";
+//import Link from "next/link";
 import { bitter, timmana } from "@/utils/font";
 
 export default function Page() {
@@ -59,7 +59,9 @@ export default function Page() {
             ensure that every Ghanaian has the resources and knowledge needed to
             take control of their financial destiny.
           </p>
-          <p className={`${timmana.className} text-lg text-justify pb-4 md:pb-8`}>
+          <p
+            className={`${timmana.className} text-lg text-justify pb-4 md:pb-8`}
+          >
             In a rapidly evolving economy like Ghana's, we recognize the
             importance of adaptability and resilience. Our services are designed
             to meet the unique challenges faced by individuals and families in
@@ -73,7 +75,9 @@ export default function Page() {
             lasting wealth that can be passed down through generations.
           </p>
 
-          <p className={`${timmana.className} text-lg text-justify pb-4 md:pb-8`}>
+          <p
+            className={`${timmana.className} text-lg text-justify pb-4 md:pb-8`}
+          >
             At the core of our efforts is a deep commitment to community
             empowerment. We see financial education as a means of lifting entire
             communities, one family at a time. By fostering a culture of
