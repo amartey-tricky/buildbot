@@ -117,7 +117,7 @@ export default function Page() {
                   {service.paragragh}
                 </p>
                 <Link
-                  href={`/services/${service.name}`}
+                  href={`/about/${service.name}`}
                   prefetch={false}
                   className="mt-4 cursor-pointer text-blue-500 hover:underline hover:text-blue-700"
                 >
