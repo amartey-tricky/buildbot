@@ -61,7 +61,7 @@ const Services = [
     paragraph2:
       "We begin by conducting a thorough assessment of your current insurance coverage and identifying any gaps that could leave you vulnerable. From life and health insurance to property and casualty coverage, we help you select the right policies to protect yourself and your family. Our insurance solutions are designed to be flexible, allowing you to adjust your coverage as your needs change over time. By working with us, you can ensure that you have the right protection in place to safeguard your financial future.",
     paragraph3:
-      "In addition to helping you select the right insurance products, we also provide ongoing support and advice to ensure that your coverage remains adequate and cost-effective. Whether you're dealing with a claim, renewing a policy, or considering new coverage options, our team is here to help you every step of the way. With our insurance solutions, you can have confidence that you're protected against life's uncertainties and that your financial well-being is secure."
+      "In addition to helping you select the right insurance products, we also provide ongoing support and advice to ensure that your coverage remains adequate and cost-effective. Whether you're dealing with a claim, renewing a policy, or considering new coverage options, our team is here to help you every step of the way. With our insurance solutions, you can have confidence that you're protected against life's uncertainties and that your financial well-being is secure.",
   },
   {
     id: 6,
@@ -69,11 +69,11 @@ const Services = [
     name: "debt-management",
     image: "",
     paragraph1:
-      "Managing debt can be one of the most challenging aspects of personal finance, but our debt management services are designed to help you regain control of your financial situation. Whether you're dealing with credit card debt, student loans, or other forms of debt, we offer personalized solutions to help you pay down your balances, reduce interest costs, and improve your financial health. Our goal is to help you get back on track and achieve financial freedom.".
-        paragraph2:
-    "The first step in debt management is understanding your current financial situation and the factors contributing to your debt. We work with you to develop a personalized debt repayment plan that fits your budget and financial goals. This may include debt consolidation, where we combine multiple debts into a single payment with a lower interest rate, or other strategies designed to reduce your overall debt burden. Our debt management services also include education and support, helping you develop healthy financial habits and avoid future debt problems.",
+      "Managing debt can be one of the most challenging aspects of personal finance, but our debt management services are designed to help you regain control of your financial situation. Whether you're dealing with credit card debt, student loans, or other forms of debt, we offer personalized solutions to help you pay down your balances, reduce interest costs, and improve your financial health. Our goal is to help you get back on track and achieve financial freedom.",
+    paragraph2:
+      "The first step in debt management is understanding your current financial situation and the factors contributing to your debt. We work with you to develop a personalized debt repayment plan that fits your budget and financial goals. This may include debt consolidation, where we combine multiple debts into a single payment with a lower interest rate, or other strategies designed to reduce your overall debt burden. Our debt management services also include education and support, helping you develop healthy financial habits and avoid future debt problems.",
     paragraph3:
-      "With our debt management services, you can take control of your finances and work towards a debt-free future. We provide ongoing support and monitoring, helping you stay on track and adjust your plan as needed. Whether you're dealing with a temporary setback or a long-term financial challenge, our team is here to help you overcome your debt and achieve your financial goals."
+      "With our debt management services, you can take control of your finances and work towards a debt-free future. We provide ongoing support and monitoring, helping you stay on track and adjust your plan as needed. Whether you're dealing with a temporary setback or a long-term financial challenge, our team is here to help you overcome your debt and achieve your financial goals.",
   },
   {
     id: 7,
@@ -85,8 +85,8 @@ const Services = [
     paragraph2:
       "We begin the education planning process by understanding your family's financial situation, your educational goals, and the time frame for achieving those goals. We then develop a personalized savings plan that includes strategies for maximizing your contributions, taking advantage of tax-advantaged accounts, and investing in a way that balances growth and risk. Our education planning services also include guidance on financial aid, scholarships, and other resources that can help reduce the cost of education.",
     paragraph3:
-      "By working with us on your education planning, you can ensure that your children have the financial support they need to achieve their academic goals. Whether you're just starting to save or looking for ways to maximize your existing savings, our team is here to help you navigate the complexities of education planning. With our expert guidance, you can provide your children with a brighter future and the financial resources they need to succeed."
-  }
+      "By working with us on your education planning, you can ensure that your children have the financial support they need to achieve their academic goals. Whether you're just starting to save or looking for ways to maximize your existing savings, our team is here to help you navigate the complexities of education planning. With our expert guidance, you can provide your children with a brighter future and the financial resources they need to succeed.",
+  },
 ];
 
 interface ServiceProps {
